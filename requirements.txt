@@ -1,0 +1,34 @@
+## Libraries Used
+
+### NumPy
+Used for numerical calculations such as:
+- Average CGPA calculation
+- Maximum DSA score finding
+
+### Pandas
+Used for:
+- Reading CSV dataset
+- Displaying tables
+- Filtering placed and non-placed students
+- Data analysis
+
+### Matplotlib
+Used for:
+- CGPA bar graph
+- DSA score line graph
+- Placement distribution pie chart
+- Saving graph images
+
+## Streamlit 
+
+In this project, Streamlit is used to convert the Python data analysis script into 
+an interactive web application. It provides a user-friendly interface where users can view
+ and edit the student dataset in real time using an editable table.
+
+Streamlit is also used to:
+- Display dynamic tables for placed and non-placed students
+- Show real-time updated graphs based on edited data
+- Take user input for CGPA, DSA score, communication skills, internships, and projects
+- Predict placement chances instantly based on user input
+
+This makes the project interactive and allows users to directly explore and modify the dataset without changing the code.
